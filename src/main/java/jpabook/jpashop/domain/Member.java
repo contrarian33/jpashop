@@ -21,5 +21,5 @@ public class Member {
     private Address address;
 
     @OneToMany(mappedBy = "member")
-    private List<Order> ordersList = new ArrayList<>();
+    private List<Order> orders = new ArrayList<>();
 }
