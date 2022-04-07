@@ -13,7 +13,8 @@ import java.util.List;
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 @DiscriminatorColumn(name = "dtype")
 @Getter
-//@Setter : 객체지향으로 개발하기 위해서는 seetter가 아니라
+@Setter
+//객체지향으로 개발하기 위해서는 seetter가 아니라
 //addStock, removeStock 등의 메서드를 이용하여 필요한 값만 세팅할 수 있도록 개발해야 한다
 public abstract class Item {
 
