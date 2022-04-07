@@ -12,4 +12,4 @@
 - 커넥션 풀: 부트 기본은 HikariCP
 - WEB(thymeleaf)
 - 로깅 SLF4J & LogBack
-- Junit5
+- Junit4
